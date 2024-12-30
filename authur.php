@@ -7,8 +7,8 @@ class Author extends Utlisateur {
 
     function __construct($name,$email,$biographie){
 
-        $this->name = $name ; 
-        $this->email = $email;
+        parent::__construct($name,$email);
+  
         $this->biographie = $biographie;
     }
 
