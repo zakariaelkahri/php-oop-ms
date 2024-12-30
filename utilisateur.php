@@ -1,8 +1,8 @@
 <?php
 class Utlisateur {
 
-    private string $name ;
-    private string $email ;
+    protected string $name ;
+    protected string $email ;
     function __construct($name,$email){
 
         $this->name = $name ; 
